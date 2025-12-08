@@ -33,4 +33,8 @@ export const createDevice = (req, res) => {
       id: result.insertId,
     });
   });
+
+  // Faltam ser desenvolvidos:
+//  - PUT /devices/:id      (atualização de dispositivo)
+//  - DELETE /devices/:id   (exclusão de dispositivo)
 };

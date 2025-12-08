@@ -7,4 +7,6 @@ router.get("/", getDevices);
 
 router.post("/", createDevice);
 
+// Em breve mais rotas serão adicionadas
+
 export default router;
