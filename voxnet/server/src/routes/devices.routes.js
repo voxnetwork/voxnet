@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getDevices, createDevice } from "../controllers/devices.controller.js";
+import { getDevices, createDevice, updateDevice, deleteDevice } from "../controllers/devices.controller.js";
 
 const router = Router();
 
@@ -7,6 +7,8 @@ router.get("/", getDevices);
 
 router.post("/", createDevice);
 
-// Em breve mais rotas serão adicionadas
+router.put("/:id", updateDevice);
+
+router.delete("/:id", deleteDevice);
 
 export default router;
