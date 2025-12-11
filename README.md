@@ -51,5 +51,5 @@ server/web/src
 
 ## Pré-visualização:
 
-<img width="1874" height="930" alt="image" src="" />  
-<img width="1872" height="929" alt="image" src="" />
+<img width="1874" height="930" alt="image" src="https://github.com/voxnetwork/voxnet/blob/main/telaCadastro.png" />  
+<img width="1872" height="929" alt="image" src="https://github.com/voxnetwork/voxnet/blob/main/telaGerenciamento.png" />
